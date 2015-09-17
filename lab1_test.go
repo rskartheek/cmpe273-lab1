@@ -21,7 +21,7 @@ func TestCirclePerimeter(t *testing.T) {
 	circlePerimeter := Circle{x: 0, y: 0, r: 5}
 	v = circlePerimeter.perimeter()
 	if v != math.Pi*10 {
-		t.Error("Expected 1.5, got ", v)
+		t.Error("Expected 31.41592653589793, got ", v)
 	}
 }
 
